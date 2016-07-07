@@ -72,9 +72,43 @@ aside {
     padding: 50px 0;
 }
 
+footer {
+    padding:20px 0;
+    a {
+        color: #fff;
+        text-decoration:underline;
+        &:hover {
+            color: #fff;
+            text-decoration:none;
+        }
+    }
+
+}
+
 .no-padding {
     padding: 0;
 }
+
+// Panels
+
+.panel-body {
+    color: @theme-dark;
+}
+.panel-primary {
+    border-color: @theme-primary;
+    &>.panel-heading {
+        background-color: @theme-primary;
+        border-color: @theme-primary;
+    }
+}
+.panel-secondary{
+    border-color: @theme-secondary;
+    &>.panel-heading {
+        background-color: @theme-secondary;
+        border-color: @theme-secondary;
+    }   
+}
+
 
 // Navigation
 
@@ -318,6 +352,10 @@ header {
 
 .btn-primary {
     .button-variant(white;@theme-primary;@theme-primary);
+}
+
+.btn-love {
+    .button-variant(white;@theme-love;@theme-love);   
 }
 
 .btn {
