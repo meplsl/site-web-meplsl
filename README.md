@@ -4,7 +4,7 @@
 
 * Installer node.js et npm : [Site web de node.js](https://nodejs.org/en/)
 * Installer gulp `npm install -g gulp`
-* Installer the node.js module `http-server`: `npm install -g http-server`
+* Installer le module node.js `http-server`: `npm install -g http-server`
  
 ## Pour démarrer
 
