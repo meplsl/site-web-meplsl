@@ -1,0 +1,30 @@
+{
+  "name": "site-meplsl",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "scrollreveal": "~3.3.1",
+    "magnific-popup": "~1.1.0",
+    "jquery-easing-original": "~1.4.1",
+    "FitText.js": "git://github.com/davatron5000/FitText.js.git#^1.2.0",
+    "font-awesome": "fontawesome#^4.6.3"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/javascripts/bootstrap.js"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "scss/font-awesome.scss",
+        "fonts/*"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
