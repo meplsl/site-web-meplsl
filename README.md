@@ -1,7 +1,12 @@
 # [Site internet de la MEPLSL](http://www.mission-evangelique-parmi-les-sans-logis.fr/)
 
-## Pour d�marrer
+## Pré-requis
 
-* Install the node.js module `http-server`: `npm install -g http-server`
-* Clone the repo: `git clone https://github.com/ptitgraig/meplsl.git`
-* Launch the website: `hs` in the current directory
+* Installer node.js et npm : [Site web de node.js](https://nodejs.org/en/)
+* Installer gulp `npm install -g gulp`
+* Installer the node.js module `http-server`: `npm install -g http-server`
+* 
+## Pour démarrer
+
+* Cloner le repo : `git clone https://github.com/ptitgraig/meplsl.git`
+* Lancer le serveur web : `hs` dans le repertoire courant
