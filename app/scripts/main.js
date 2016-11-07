@@ -1,5 +1,5 @@
 /*!
- * MEPLSL v1.0.0 (http://www.mission-evangélique-parmi-les-sans-logis.fr)
+ * MEPLSL v2.0.0 (http://www.mission-evangélique-parmi-les-sans-logis.fr)
  * Copyright 2016 Grégory PELLETEY
  */
 

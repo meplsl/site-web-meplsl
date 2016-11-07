@@ -1,0 +1,29 @@
+.fa-heart {
+  animation: HEARTBEAT 2.5s infinite;
+  margin-right: 5px;
+}
+
+.service-box .fa-heart {
+	animation: none;
+}
+
+@keyframes HEARTBEAT {
+  0% {
+    transform: scale(1);
+  }
+  5% {
+    transform: scale(1.4);
+  }
+  10% {
+    transform: scale(1.2);
+  }
+  15% {
+    transform: scale(1.6);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

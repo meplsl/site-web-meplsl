@@ -1,0 +1,3 @@
+AuthUserFile /home/missione/www/V2/.htpasswd
+AuthName "This section is private"
+AuthType Basic
