@@ -253,6 +253,21 @@ aside {
     color: $theme-secondary;
 }
 
+
+.contact-default {
+    display:block;
+}
+.contact-other {
+    display:none;
+}
+.btn-contact {
+    width:260px;
+}
+.btn-contact:hover,  .btn-contact:focus {
+    .contact-default {display:none;}
+    .contact-other {display:block;}
+}
+
 .no-gutter > [class*='col-'] {
     padding-right:0;
     padding-left:0;
