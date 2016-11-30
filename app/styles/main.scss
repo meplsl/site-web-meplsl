@@ -3,6 +3,8 @@
 @import 'header';
 @import 'footer';
 @import 'navbar';
+@import 'confession';
+@import 'heart';
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
@@ -11,10 +13,10 @@
 
 
 .browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
 }
 
 // Global Components
@@ -65,8 +67,28 @@ p {
     margin-bottom: 20px;
 }
 
+ul {
+    padding-left:20px;
+}
+
 ul li {
   margin-bottom:10px;
+}
+
+.upper {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: "Arial Black";
+}
+
+.logo {
+    display: block;
+    background: #fff;
+    border-radius: 40px;
+    margin: 0 auto 20px auto;
+    width: 124px;
+    border-radius: 100px;
+    padding: 20px;
 }
 
 .bg-primary {
@@ -82,6 +104,18 @@ ul li {
     background-color: $theme-dark;
 }
 
+.bg-love {
+    background-color: $theme-love;
+    color:#fff;
+    .well {
+        color:#333;
+    }
+}
+
+.modal dt {
+    width:165px;
+}
+
 .text-faded {
     color: fade(white, 70%);
 }
@@ -94,7 +128,12 @@ aside {
     padding: 50px 0;
 }
 
-
+.ligne-2 {
+    background-color: #216eb4;
+}
+.ligne-11 {
+    background-color: #8e6538;
+}
 
 .no-padding {
     padding: 0;
@@ -123,6 +162,8 @@ aside {
 // Sections
 
 .section-heading {
+    font-family: "Arial Black";
+    font-size: 2em;
     margin-top: 0;
 }
 
@@ -212,6 +253,21 @@ aside {
     color: $theme-secondary;
 }
 
+
+.contact-default {
+    display:block;
+}
+.contact-other {
+    display:none;
+}
+.btn-contact {
+    width:260px;
+}
+.btn-contact:hover,  .btn-contact:focus {
+    .contact-default {display:none;}
+    .contact-other {display:block;}
+}
+
 .no-gutter > [class*='col-'] {
     padding-right:0;
     padding-left:0;
@@ -233,6 +289,10 @@ aside {
 
 .btn-primary {
     @include button-variant(white,$theme-primary,$theme-primary);
+}
+
+.btn-secondary {
+    @include button-variant(white,$theme-secondary,$theme-secondary);
 }
 
 .btn-love {
@@ -270,3 +330,5 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: $theme-dark;
 }
+
+
