@@ -1,3 +1,4 @@
-AuthUserFile /home/missione/www/V2/.htpasswd
-AuthName "This section is private"
-AuthType Basic
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+ErrorDocument 404 /
