@@ -7,5 +7,6 @@
  
 ## Pour démarrer
 
-* Cloner le repo : `git clone https://github.com/ptitgraig/meplsl.git`
+* Cloner le repo : `git clone https://github.com/meplsl/site-web-meplsl`
+* Générer les dépendences : `bower install`
 * Lancer le serveur web local : `gulp serve`
