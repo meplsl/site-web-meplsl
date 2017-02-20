@@ -1,9 +1,10 @@
 language: node_js
+node_js:
+  - "6.1.x"
 
 before_script:
   - npm install -g gulp
 
 script:
-  - npm install
   - bower install
   - gulp build
