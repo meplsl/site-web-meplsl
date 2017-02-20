@@ -1,4 +1,8 @@
-# [Nouveau site internet de la MEPLSL](http://www.mission-evangelique-parmi-les-sans-logis.fr/)
+# [Nouveau site internet de la MEPLSL](https://www.mission-evangelique-parmi-les-sans-logis.fr/)
+
+
+## Build info
+[![Build Status](https://travis-ci.org/meplsl/site-web-meplsl.svg?branch=master)](https://travis-ci.org/meplsl/site-web-meplsl)
 
 ## Pré-requis
 
