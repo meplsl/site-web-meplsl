@@ -2,5 +2,4 @@
 
 User-agent: * 
 
-# activate when we have final validation !!
-Disallow: /
+Disallow:
