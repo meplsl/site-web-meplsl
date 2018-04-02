@@ -1,11 +1,16 @@
 language: node_js
-node_js:
-  - "6.1"
+node_js: node
+cache:
+  directories:
+  - node_modules
+  - bower_components
 
 before_script:
-  - npm install -g gulp
-  - npm install -g bower
+- yarn install
+- bower install
 
 script:
-  - bower install
-  - gulp build
+- gulp build
+
+after_success:
+ - if [ "$TRAVIS_BRANCH" = "master" ]; then firebase deploy --project $FIREBASE_PROJECT_ID --token "$FIREBASE_TOKEN"; fi

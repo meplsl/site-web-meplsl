@@ -6,7 +6,7 @@
 
 ## Pré-requis
 
-* Installer node.js et npm : [Site web de node.js](https://nodejs.org/en/)
+* Installer [Node.js](https://nodejs.org/en/)
 * Installer gulp `npm install -g gulp`
 * Installer bower `npm install -g bower`
  
